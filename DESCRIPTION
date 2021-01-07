@@ -1,0 +1,18 @@
+Package: jdtratnr
+Title: Convenience functions for Jonathan D. Trattner
+Version: 0.0.0.9000
+Authors@R: 
+   person(given = "Jonathan D.",
+           family = "Trattner",
+           role = c("aut", "cre"),
+           email = "code@jdtrat.com",
+           comment = c(ORCID = "0000-0002-1097-7603"))
+Description: Provides functions used repeatedly in various analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
