@@ -1,24 +1,28 @@
 ---
 title: "Title"
 subtitle: "subtitle"
-author: "Jonathan D. Trattner<sup>1</sup>"
+author: "Jonathan D. Trattner"
 date: "date"
 output:
   xaringan::moon_reader:
-  lib_dir: libs
-seal: false
-nature:
-  beforeInit: "my-macros.js"
-highlightStyle: github
-highlightLines: true
-countIncrementalSlides: false
-css: jdtrat.css
+    lib_dir: libs
+    seal: false
+    nature:
+      beforeInit: "my-macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    css: jdtrat.css
 ---
 class: inverse center middle
 
 # TITLE SLIDE HEADER
 
 .large[Jonathan Trattner | date]
+.small[
+Department of Interdisciplinary Studies, Wake Forest University
+Department of Physiology and Pharmacology, Wake Forest School of Medicine
+]
 
 ```{r setup-main, include=FALSE}
 options(htmltools.dir.version = FALSE)
