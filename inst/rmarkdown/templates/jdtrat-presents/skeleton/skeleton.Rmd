@@ -1,0 +1,46 @@
+---
+title: "Title"
+subtitle: "subtitle"
+author: "Jonathan D. Trattner<sup>1</sup>"
+date: "2020/02/08 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+seal: false
+nature:
+  beforeInit: "my-macros.js"
+highlightStyle: github
+highlightLines: true
+countIncrementalSlides: false
+css: jdtrat.css
+---
+  class: inverse center middle
+
+# TITLE SLIDE HEADER
+
+.large[Jonathan Trattner | February 8, 2020]
+
+```{r setup-main, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+---
+  class: inverse center middle
+
+# Introduction `r emo::ji("wave")`
+
+???
+  
+Comments can go here!
+
+---
+name: theme
+layout: true
+.my-header[
+]
+
+.my-footer[
+]
+
+---
+
+### More content here...
