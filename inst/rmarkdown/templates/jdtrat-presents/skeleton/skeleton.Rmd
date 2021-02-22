@@ -2,7 +2,7 @@
 title: "Title"
 subtitle: "subtitle"
 author: "Jonathan D. Trattner<sup>1</sup>"
-date: "2020/02/08 (updated: `r Sys.Date()`)"
+date: "date"
 output:
   xaringan::moon_reader:
   lib_dir: libs
@@ -14,17 +14,17 @@ highlightLines: true
 countIncrementalSlides: false
 css: jdtrat.css
 ---
-  class: inverse center middle
+class: inverse center middle
 
 # TITLE SLIDE HEADER
 
-.large[Jonathan Trattner | February 8, 2020]
+.large[Jonathan Trattner | date]
 
 ```{r setup-main, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
 ---
-  class: inverse center middle
+class: inverse center middle
 
 # Introduction `r emo::ji("wave")`
 
